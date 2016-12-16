@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4C128AF51E00F6780094DD08 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C128AF41E00F6780094DD08 /* Activity.swift */; };
+		4C4D41FC1E038E360054AC67 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D41FB1E038E360054AC67 /* ActivityViewController.swift */; };
+		4C4D41FE1E038E720054AC67 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D41FD1E038E720054AC67 /* ActivityCell.swift */; };
 		97212A121DE6A3940053147A /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97212A111DE6A3940053147A /* FeedViewController.swift */; };
 		9759111F1DCAFCC500C7B2D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759111E1DCAFCC500C7B2D4 /* AppDelegate.swift */; };
 		975911211DCAFCC500C7B2D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975911201DCAFCC500C7B2D4 /* ViewController.swift */; };
@@ -44,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		4C128AF41E00F6780094DD08 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Activity.swift; path = ../Activity.swift; sourceTree = "<group>"; };
+		4C4D41FB1E038E360054AC67 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		4C4D41FD1E038E720054AC67 /* ActivityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
 		64CC6A6DEF5BADF736A91849 /* Pods-SelfigramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfigramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SelfigramTests/Pods-SelfigramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81FA1ABE5F8D217D7EBE8FC7 /* Pods_SelfigramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelfigramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97212A111DE6A3940053147A /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 				9759111E1DCAFCC500C7B2D4 /* AppDelegate.swift */,
 				975911201DCAFCC500C7B2D4 /* ViewController.swift */,
 				975911221DCAFCC500C7B2D4 /* Main.storyboard */,
+				4C4D41FB1E038E360054AC67 /* ActivityViewController.swift */,
+				4C4D41FD1E038E720054AC67 /* ActivityCell.swift */,
 				97B6F8331DED5D1500D4D878 /* SelfieCell.swift */,
 				97DD755D1DE4044F0021E20C /* User.swift */,
 				97DD755F1DE405220021E20C /* Post.swift */,
@@ -466,8 +472,10 @@
 			files = (
 				97DD755E1DE4044F0021E20C /* User.swift in Sources */,
 				9787308E1DDD6FEC00C1AAB4 /* ProfileViewController.swift in Sources */,
+				4C4D41FE1E038E720054AC67 /* ActivityCell.swift in Sources */,
 				97B6F8341DED5D1500D4D878 /* SelfieCell.swift in Sources */,
 				975911211DCAFCC500C7B2D4 /* ViewController.swift in Sources */,
+				4C4D41FC1E038E360054AC67 /* ActivityViewController.swift in Sources */,
 				9759111F1DCAFCC500C7B2D4 /* AppDelegate.swift in Sources */,
 				97212A121DE6A3940053147A /* FeedViewController.swift in Sources */,
 				4C128AF51E00F6780094DD08 /* Activity.swift in Sources */,
